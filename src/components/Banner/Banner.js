@@ -1,3 +1,4 @@
+import banner from "../../resources/banner.png";
 import "./Banner.css";
 
 function Banner() {
@@ -5,7 +6,7 @@ function Banner() {
     <div className="banner">
       <img
         data-testid="banner"
-        src="/resources/banner.png"
+        src={banner}
         alt="O banner principal da página do Organo"
       />
     </div>

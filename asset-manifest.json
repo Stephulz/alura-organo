@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/alura-organo/static/css/main.f8fab736.css",
+    "main.js": "/alura-organo/static/js/main.9ada6a99.js",
+    "static/js/787.0697fdaf.chunk.js": "/alura-organo/static/js/787.0697fdaf.chunk.js",
+    "index.html": "/alura-organo/index.html",
+    "main.f8fab736.css.map": "/alura-organo/static/css/main.f8fab736.css.map",
+    "main.9ada6a99.js.map": "/alura-organo/static/js/main.9ada6a99.js.map",
+    "787.0697fdaf.chunk.js.map": "/alura-organo/static/js/787.0697fdaf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8fab736.css",
+    "static/js/main.9ada6a99.js"
+  ]
+}

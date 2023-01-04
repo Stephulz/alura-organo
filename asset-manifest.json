@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/alura-organo/static/css/main.eb40609f.css",
-    "main.js": "/alura-organo/static/js/main.a63fc7af.js",
+    "main.css": "/alura-organo/static/css/main.f8fab736.css",
+    "main.js": "/alura-organo/static/js/main.faa7c232.js",
     "static/js/787.0697fdaf.chunk.js": "/alura-organo/static/js/787.0697fdaf.chunk.js",
     "static/media/banner.png": "/alura-organo/static/media/banner.82dfe8e1202257d57436.png",
     "index.html": "/alura-organo/index.html",
-    "main.eb40609f.css.map": "/alura-organo/static/css/main.eb40609f.css.map",
-    "main.a63fc7af.js.map": "/alura-organo/static/js/main.a63fc7af.js.map",
+    "main.f8fab736.css.map": "/alura-organo/static/css/main.f8fab736.css.map",
+    "main.faa7c232.js.map": "/alura-organo/static/js/main.faa7c232.js.map",
     "787.0697fdaf.chunk.js.map": "/alura-organo/static/js/787.0697fdaf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb40609f.css",
-    "static/js/main.a63fc7af.js"
+    "static/css/main.f8fab736.css",
+    "static/js/main.faa7c232.js"
   ]
 }

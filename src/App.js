@@ -3,7 +3,7 @@ import "./index.css";
 import Banner from "./components/Banner/Banner";
 import TextInput from "./components/TextInput/TextInput";
 import { useState } from "react";
-import Button from "./components/Button/Button";
+import Form from "./components/Form/Form";
 
 function App() {
   const [nome, setNome] = useState("");
@@ -11,25 +11,13 @@ function App() {
   return (
     <div className="App">
       <Banner />
-      <TextInput
-        label="Nome"
-        placeholder="Digite seu nome"
-        value={nome}
-        onChange={(e) => setNome(e.target.value)}
+      <Form
+        name="create-colaborador"
+        title="Preencha os dados para criar o card do colaborador"
       />
-      <TextInput
-        label="Cargo"
-        placeholder="Digite seu cargo"
-        value={nome}
-        onChange={(e) => setNome(e.target.value)}
-      />
-      <TextInput
-        label="Imagem"
-        placeholder="Informe o endereço da imagem"
-        value={nome}
-        onChange={(e) => setNome(e.target.value)}
-      />
-      <Button onClick={e => console.log("Click Criar Card")}>Criar Card</Button>
+      <Button onClick={(e) => console.log("Click Criar Card")}>
+        Criar Card
+      </Button>
     </div>
   );
 }

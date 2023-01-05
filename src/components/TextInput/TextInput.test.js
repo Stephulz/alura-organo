@@ -9,5 +9,5 @@ test("renders TextInput component", () => {
   expect(input).toBeInTheDocument();
   fireEvent.change(input, { target: { value: "test" } });
   expect(input.value).toBe("test");
-  screen.queryByPlaceholderText(/Digite seu nome/i);
+  screen.getByPlaceholderText(/Digite seu nome/i);
 });

@@ -1,7 +1,6 @@
 import "./App.css";
 import "./index.css";
 import Banner from "./components/Banner/Banner";
-import TextInput from "./components/TextInput/TextInput";
 import { useState } from "react";
 import Form from "./components/Form/Form";
 

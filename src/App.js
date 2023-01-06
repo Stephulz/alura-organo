@@ -3,6 +3,7 @@ import "./index.css";
 import Banner from "./components/Banner/Banner";
 import TextInput from "./components/TextInput/TextInput";
 import { useState } from "react";
+import Button from "./components/Button/Button";
 
 function App() {
   const [nome, setNome] = useState("");
@@ -28,6 +29,7 @@ function App() {
         value={nome}
         onChange={(e) => setNome(e.target.value)}
       />
+      <Button onClick={e => console.log("Click Criar Card")}>Criar Card</Button>
     </div>
   );
 }

@@ -30,4 +30,8 @@ test("renders App component", () => {
   fireEvent.change(inputImagem, { target: { value: "test imagem" } });
   expect(inputImagem.value).toBe("test imagem");
   screen.queryByPlaceholderText(/Informe o endereço da imagem/i);
+
+  const button = screen.getByTestId("button-Criar Card");
+  expect(button).toBeInTheDocument();
+  fireEvent.click(button);
 });

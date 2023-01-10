@@ -1,4 +1,4 @@
-import { render, screen, fireEvent } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import Form from "./Form";
 
 test("renders TextInput component", () => {
@@ -6,7 +6,9 @@ test("renders TextInput component", () => {
     <Form
       name="create-colaborador"
       title="Preencha os dados para criar o card do colaborador"
-    />
+    >
+      children-test
+    </Form>
   );
   expect(
     screen.getByTestId("form-create-colaborador-section")
@@ -15,4 +17,5 @@ test("renders TextInput component", () => {
     screen.getByTestId("form-create-colaborador-title")
   ).toBeInTheDocument();
   expect(screen.getByTestId("form-create-colaborador")).toBeInTheDocument();
+  expect(screen.getByText("children-test")).toBeInTheDocument();
 });

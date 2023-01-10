@@ -4,6 +4,7 @@ import Banner from "./components/Banner/Banner";
 import Form from "./components/Form/Form";
 import Select from "./components/Select/Select";
 import TextInput from "./components/TextInput/TextInput";
+import Button from "./components/Button/Button";
 
 import "./App.css";
 import "./index.css";

@@ -1,15 +1,29 @@
 .button {
+  display: flex;
   background-color: #6278f7;
   border-radius: 10px;
   font-weight: 700;
   font-size: 18px;
   padding: 32px;
-  border: none; 
+  border: none;
   cursor: pointer;
-  color: #FFF;
+  color: #fff;
   margin: 16px 0;
+  transition: all 0.2s ease-out;
+  outline: 0.15rem solid transparent;
+  outline-offset: 0.5rem;
 }
 
 .button:hover {
-  color: #95FFD4
+  color: #95ffd4;
+}
+
+.button:focus {
+  outline: 2px solid;
+  outline-color: black;
+  outline-offset: 0;
+}
+
+.button:not(:focus) {
+  transition-duration: 0s;
 }

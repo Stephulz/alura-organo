@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/alura-organo/static/css/main.72eeb3c0.css",
-    "main.js": "/alura-organo/static/js/main.d4e000ed.js",
+    "main.css": "/alura-organo/static/css/main.afe8ea14.css",
+    "main.js": "/alura-organo/static/js/main.256548b9.js",
     "static/js/787.0697fdaf.chunk.js": "/alura-organo/static/js/787.0697fdaf.chunk.js",
     "static/media/banner.png": "/alura-organo/static/media/banner.82dfe8e1202257d57436.png",
     "index.html": "/alura-organo/index.html",
-    "main.72eeb3c0.css.map": "/alura-organo/static/css/main.72eeb3c0.css.map",
-    "main.d4e000ed.js.map": "/alura-organo/static/js/main.d4e000ed.js.map",
+    "main.afe8ea14.css.map": "/alura-organo/static/css/main.afe8ea14.css.map",
+    "main.256548b9.js.map": "/alura-organo/static/js/main.256548b9.js.map",
     "787.0697fdaf.chunk.js.map": "/alura-organo/static/js/787.0697fdaf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72eeb3c0.css",
-    "static/js/main.d4e000ed.js"
+    "static/css/main.afe8ea14.css",
+    "static/js/main.256548b9.js"
   ]
 }

@@ -1,13 +1,13 @@
 import "./Button.css";
 
-function Button({children, onClick}) {
-  return (    
+function Button({ children, onClick }) {
+  return (
     <button
       data-testid={`button-${children}`}
       className="button"
       onClick={onClick}
-      >
-        {children}
+    >
+      {children}
     </button>
   );
 }

@@ -1,6 +1,6 @@
 import "./Select.css";
 
-const Select = ({ label, placeholder, value, options, onChange }) => {
+const Select = ({ label, placeholder, value, options, onChange, required }) => {
   return (
     <div data-testid={`select-container-${label}`} className="select-container">
       <label data-testid={`select-label-${label}`} className="select-label">
@@ -11,6 +11,7 @@ const Select = ({ label, placeholder, value, options, onChange }) => {
         className={"select"}
         value={value || ""}
         onChange={onChange}
+        required={required}
       >
         <option data-testid={`select-option-${placeholder}`} value={""}>
           {placeholder}

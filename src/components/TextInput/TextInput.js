@@ -1,6 +1,6 @@
 import "./TextInput.css";
 
-const TextInput = ({ label, placeholder, onChange, value }) => {
+const TextInput = ({ label, placeholder, onChange, value, required }) => {
   return (
     <div
       data-testid={`text-input-container-${label}`}
@@ -18,6 +18,7 @@ const TextInput = ({ label, placeholder, onChange, value }) => {
         placeholder={placeholder}
         value={value}
         onChange={onChange}
+        required={required}
       />
     </div>
   );

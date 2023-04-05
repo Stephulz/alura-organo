@@ -1,0 +1,42 @@
+.collaborator {
+  width: 262px;
+  height: 272px;
+  background: linear-gradient(to top, #ffffff 68.7%, #57c278 31.3%);
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  margin: 38px 24px 37px 0;
+  word-break: break-all;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.collaborator-container {
+  margin: 15px;
+}
+
+.collaborator img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+
+.collaborator h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #6278f7;
+}
+
+.collaborator h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #212121;
+}

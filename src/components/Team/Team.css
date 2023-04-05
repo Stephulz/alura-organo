@@ -1,0 +1,22 @@
+.team {
+  mix-blend-mode: multiply;
+}
+
+.team-children {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team-title {
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  color: #212121;
+  border-bottom: 4px solid;
+  display: inline-block;
+  padding-bottom: 8px;
+}
